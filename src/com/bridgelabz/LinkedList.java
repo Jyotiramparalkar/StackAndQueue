@@ -5,7 +5,7 @@ public class LinkedList {
     Node top;
 
     /*
-    *This method is used to add the node at begining of the linked list
+    *This method is used to add the node at beginning...
     *  */
     public void addNode(int data){
         Node newNode = new Node(data);
@@ -29,5 +29,19 @@ public class LinkedList {
             }
             System.out.println();
         }
+    }
+
+    public boolean isEmpty(){
+        if ( top == null)
+            return true;
+        else
+            return false;
+    }
+
+    //This method used to remove element from list
+    public int remove(){
+        int data = top.data;
+        top = top.next;
+        return  data;
     }
 }
