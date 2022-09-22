@@ -12,8 +12,7 @@ public class LinkedList {
     *  */
     public void addNode(int data){
         Node newNode = new Node(data);
-        if (top == null)
-        {
+        if (top == null){
             top = newNode;
         }else{
             Node temp = top;
