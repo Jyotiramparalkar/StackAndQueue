@@ -40,7 +40,8 @@ public class StackOperations {
      * This method will return top element and remove it, if stack is not empty
      * else it will show stack is empty and return -1
      * */
-    public int pop(){
+    public int pop()
+    {
         if (isEmpty()){
             System.out.println("Stack is empty!");
             return -1;
