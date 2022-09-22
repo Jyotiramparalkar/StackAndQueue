@@ -1,6 +1,7 @@
 package com.bridgelabz;
 
-public class LinkedList {
+public class LinkedList
+{
     //Used to hold the head value of linked list
     Node top;
 

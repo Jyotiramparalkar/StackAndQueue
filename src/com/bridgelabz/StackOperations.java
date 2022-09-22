@@ -29,7 +29,8 @@ public class StackOperations {
     * This method will return top element without removing it if stack is not empty
     * else it will show stack is empty and return -1
     * */
-    public int peek(){
+    public int peek()
+    {
         if (isEmpty()){
             System.out.println("Stack is empty!");
             return -1;
